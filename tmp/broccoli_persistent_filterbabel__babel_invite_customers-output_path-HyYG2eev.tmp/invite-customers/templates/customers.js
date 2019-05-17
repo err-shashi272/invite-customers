@@ -1,0 +1,8 @@
+define("invite-customers/templates/customers", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "r74TG76k", "block": "{\"statements\":[[11,\"div\",[]],[15,\"id\",\"customers-list\"],[15,\"class\",\"container\"],[13],[0,\"\\n  \"],[11,\"div\",[]],[15,\"class\",\"btn-group action-buttons\"],[15,\"role\",\"group\"],[15,\"aria-label\",\"Basic example\"],[13],[0,\"\\n    \"],[11,\"button\",[]],[15,\"class\",\"btn btn-outline-primary\"],[5,[\"action\"],[[28,[null]],\"toggleParams\",\"withinRange\"]],[13],[1,[33,[\"if\"],[[28,[\"withinRange\"]],\"See all customers\",\"Filter within range only\"],null],false],[14],[0,\"\\n    \"],[11,\"button\",[]],[15,\"class\",\"btn btn-outline-primary\"],[5,[\"action\"],[[28,[null]],\"sortInfos\"]],[13],[0,\"Sort by \"],[1,[33,[\"if\"],[[33,[\"eq\"],[[28,[\"sort\"]],\"userId\"],null],\"distance\",\"user-id\"],null],false],[14],[0,\"\\n  \"],[14],[0,\"\\n  \"],[11,\"div\",[]],[15,\"class\",\"row\"],[13],[0,\"\\n\"],[6,[\"each\"],[[28,[\"sortedInfos\"]]],null,{\"statements\":[[0,\"      \"],[1,[33,[\"customer-info\"],null,[[\"customer\"],[[28,[\"customer\"]]]]],false],[0,\"\\n\"]],\"locals\":[\"customer\"]},null],[0,\"  \"],[14],[0,\"\\n\"],[14],[0,\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"hasPartials\":false}", "meta": { "moduleName": "invite-customers/templates/customers.hbs" } });
+});

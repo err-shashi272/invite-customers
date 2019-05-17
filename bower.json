@@ -1,0 +1,20 @@
+{
+  "name": "invite-customers",
+  "description": "invite customers within 1oo km of Dublin for some food",
+  "main": "",
+  "authors": [
+    "shashi27 <shashi.nsit1992@gmail.com>"
+  ],
+  "license": "NIL",
+  "homepage": "NIL",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "tether": "^1.4.4"
+  }
+}

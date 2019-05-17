@@ -1,0 +1,1 @@
+/private/var/www/html/invite-customers-asg/tmp/funnel-input_base_path-JEmhOQhk.tmp/serializers/json-api-serializer.js

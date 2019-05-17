@@ -1,0 +1,1 @@
+/private/var/www/html/invite-customers-asg/app/resolver.js

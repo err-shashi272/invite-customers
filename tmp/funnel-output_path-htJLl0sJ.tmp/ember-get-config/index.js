@@ -1,0 +1,1 @@
+/private/var/www/html/invite-customers-challenge/tmp/funnel-input_base_path-XjKj213Y.tmp/index.js

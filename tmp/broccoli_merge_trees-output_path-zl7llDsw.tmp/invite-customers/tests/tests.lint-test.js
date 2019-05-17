@@ -1,0 +1,1 @@
+/private/var/www/html/invite-customers-challenge/tmp/broccoli_merge_trees-input_base_path-pBN9JtCB.tmp/1/invite-customers/tests/tests.lint-test.js

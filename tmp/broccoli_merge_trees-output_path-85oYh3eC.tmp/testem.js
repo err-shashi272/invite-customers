@@ -1,0 +1,1 @@
+/private/var/www/html/invite-customers/node_modules/ember-cli/lib/broccoli/testem.js

@@ -1,0 +1,1 @@
+/private/var/www/html/invite-customers/tmp/funnel-input_base_path-SNpXpKDx.tmp/index.js

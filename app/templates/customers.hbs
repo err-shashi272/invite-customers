@@ -1,0 +1,11 @@
+<div id="customers-list" class="container">
+  <div class="btn-group action-buttons" role="group" aria-label="Basic example">
+    <button {{action 'toggleParams' 'withinRange'}} class="btn btn-outline-primary">{{if withinRange 'See all customers' 'Filter within range only'}}</button>
+    <button {{action 'sortInfos'}} class="btn btn-outline-primary">Sort by {{if (eq sort 'userId') 'distance' 'user-id'}}</button>
+  </div>
+  <div class="row">
+    {{#each sortedInfos as |customer|}}
+      {{customer-info customer=customer}}
+    {{/each}}
+  </div>
+</div>

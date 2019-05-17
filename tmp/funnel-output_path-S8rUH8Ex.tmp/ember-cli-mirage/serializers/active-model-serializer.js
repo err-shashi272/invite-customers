@@ -1,0 +1,1 @@
+/private/var/www/html/invite-customers/tmp/funnel-input_base_path-P5KgNep1.tmp/serializers/active-model-serializer.js

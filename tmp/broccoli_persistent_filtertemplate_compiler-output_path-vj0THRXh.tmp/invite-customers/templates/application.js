@@ -1,0 +1,1 @@
+export default Ember.HTMLBars.template({"id":"K+DerKBB","block":"{\"statements\":[[1,[26,[\"outlet\"]],false],[0,\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"hasPartials\":false}","meta":{"moduleName":"invite-customers/templates/application.hbs"}});

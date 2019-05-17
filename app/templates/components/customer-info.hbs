@@ -1,0 +1,28 @@
+<div class="card-block">
+  <blockquote class="card-blockquote">
+    <h4>{{customer.name}} ({{customer.userId}})</h4>
+    <p>
+      Latitude: {{customer.latitude}}<br/>
+      Longitude: {{customer.longitude}}<br/>
+      Distance from office: <span class="distance {{if isOutOfReach 'text-danger'}}">{{distanceFromOffice}}km</span>
+    </p>
+    <footer>
+      {{#if isOutOfReach}}
+        <div class="alert alert-danger" role="alert">
+          <strong>Oh snap!</strong> this customer is out of reach.
+        </div>
+      {{else}}
+        {{#if (and customer.invited (not inviteCustomerTask.isRunning))}}
+          <button class="btn btn-outline-success disabled" disabled>
+            Invited
+            <span class="fa fa-check" aria-hidden="true"></span>
+          </button>
+        {{else}}
+          <button class="btn btn-success" onclick={{perform inviteCustomerTask}}>
+            {{if inviteCustomerTask.isRunning 'Inviting...' 'Invite'}}
+          </button>
+        {{/if}}
+      {{/if}}
+    </footer>
+  </blockquote>
+</div>

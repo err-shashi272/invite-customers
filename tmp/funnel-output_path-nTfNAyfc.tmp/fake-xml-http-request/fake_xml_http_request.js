@@ -1,0 +1,1 @@
+/private/var/www/html/invite-customers-asg/tmp/funnel-input_base_path-p1U8Odo0.tmp/fake_xml_http_request.js

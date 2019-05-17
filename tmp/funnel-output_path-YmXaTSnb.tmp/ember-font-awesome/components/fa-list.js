@@ -1,0 +1,1 @@
+/private/var/www/html/invite-customers-challenge/tmp/funnel-input_base_path-xNQ2yvY2.tmp/components/fa-list.js
